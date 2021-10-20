@@ -1,0 +1,10 @@
+create table t1 (a integer, b varchar(255), c date);
+
+insert into t1 (a, b, c) values (1, '2', '1999-01-01'), (2, '3', '1999-02-02'), (3, '4', '1999-03-03');
+test1=> \d
+         List of relations
+ Schema | Name | Type  |   Owner    
+--------+------+-------+------------
+ public | t1   | table | user_test1
+(1 row)
+
